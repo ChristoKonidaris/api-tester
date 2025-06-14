@@ -16,6 +16,7 @@ export default function WebhookTester() {
   const [loading, setLoading] = useState(false);
   const [validationLoading, setValidationLoading] = useState(false);
 
+  // Use endpoint
   const testApi = async () => {
     setLoading(true);
     try {
@@ -35,6 +36,7 @@ export default function WebhookTester() {
     setLoading(false);
   };
 
+  // Use Validation endpoint
   const testValidationEndpoint = async () => {
     if (!validationUrl || !email) {
       setValidationResponse("Please enter both URL and email address");

@@ -12,7 +12,8 @@ API Endpoint: https://api-tester-dev.vercel.app/api/endpoint
 Tech stacks used:
 - Next.js
 - React
-- Node.js- Javascript
+- Node.js
+- Javascript
 - TailwindCSS
 - shadcn/ui (Which is a prebuild React component library)
 - Vercel (hosting)
